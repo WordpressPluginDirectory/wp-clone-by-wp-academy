@@ -21,7 +21,7 @@ function recursive_unserialize_replace( $from = '', $to = '', $data = '', $seria
 	// some unseriliased data cannot be re-serialised eg. SimpleXMLElements
 	try {
 
-		if ( is_string( $data ) && ( $unserialized = @unserialize( $data ) ) !== false ) {
+		if ( is_string( $data ) && ( $unserialized = @unserialize( $data , ['allowed_classes' => false] ) ) !== false ) {
 			$data = recursive_unserialize_replace( $from, $to, $unserialized, true );
 		}
 

@@ -1,11 +1,11 @@
 === Clone ===
 Contributors: migrate, nick843
-Tags: migrate, clone, backup, migration, backups, copy, restore, recover, restoration, duplicate
+Tags: migrate, clone, backup, restore, duplicate
 Author URI: https://backupbliss.com
 Requires PHP: 5.5
 Requires at least: 3.3
-Tested up to: 6.6.1
-Stable tag: 2.4.6
+Tested up to: 6.7
+Stable tag: 2.4.7
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -132,6 +132,10 @@ You can back up the website database only, if you navigate to the Advanced Setti
 Backup and migration FAQ are under construction
 
 == Changelog ==
+
+= 2.4.7 =
+* Test with WordPress 6.7
+* Fixed a security issue
 
 = 2.4.6 =
 * Tested with WordPress 6.6.1
@@ -277,7 +281,6 @@ Backup and migration FAQ are under construction
 1. Configuration Page
 
 == Upgrade Notice ==
-= 2.4.6 =
-* Tested with WordPress 6.6.1
-* Security fixes
-* Fixed an issue with TryOut plugin installation
+= 2.4.7 =
+* Test with WordPress 6.7
+* Fixed a security issue
